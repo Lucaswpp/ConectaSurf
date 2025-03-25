@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   background-color: #2EC4B6;
-  height: 20vh;
+  height: 15vh;
 }
 
 .style-header-h1
@@ -20,7 +20,7 @@
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  height: 80vh;
+  height: 85vh;
 }
 
 .style-main-title
