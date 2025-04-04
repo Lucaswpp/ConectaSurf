@@ -1,5 +1,5 @@
-import InitPage from "./initPage"
-import Welcome from "./Welcome"
+import InitPage from "./InitPage.jsx"
+import Welcome from "./Welcome.jsx"
 
 const Content = () =>
 {
