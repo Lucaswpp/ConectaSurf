@@ -94,7 +94,7 @@
 
 .style2-main
 {
-  padding: 20px;
+  padding: 25px;
   font-family: Poppins;
   width: 100%;
   display: flex;
@@ -104,6 +104,7 @@
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  row-gap: 30px;
 }
 
 .style2-main-title
@@ -117,7 +118,8 @@
   font-weight: 600;
   color: #fff;
   font-size: 18px;
-  width: 350px;
+  width: 340px;
+  text-align: justify
 }
 
 .style2-main-contentImg
@@ -130,4 +132,55 @@
 {
   width: 100%;
   text-align: center;
+}
+
+.style3-main
+{
+  position: relative;
+  padding: 20px;
+  padding-bottom: 0px;
+  font-family: Poppins;
+  height: 100vh;
+  width: 100%;
+  background-color: #119DA4;
+  overflow:hidden;
+
+}
+
+.style3-main-contentImg
+{
+  width: 470px;
+
+}
+
+.style3-main-contentImg img
+{
+  width: 100%;
+}
+
+.style3-main-content-position-img
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: -20px;
+  transform: translateX(-18px);
+}
+
+.style3-main-title
+{
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 30px;
+  width: 350px;
+  color: #21D19F;
+}
+
+.style3-main-text
+{
+  color: white;
+  font-family: "Palanquin Dark";
+  font-weight: 600;
+  font-size: 1.05em;
+
 }
